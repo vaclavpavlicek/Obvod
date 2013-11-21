@@ -42,7 +42,7 @@ public class Objekty {
         strana_a_promena = Integer.parseInt(strana_a);
         strana_b_promena = Integer.parseInt(strana_b);
         vysledek = 2 * (strana_a_promena + strana_b_promena);
-        System.out.println("Obvod čtverce je " + vysledek + "\n");
+        System.out.println("Obvod obdelníku je " + vysledek + "\n");
         
     }
     
@@ -56,7 +56,7 @@ public class Objekty {
         strana_c = sc.nextLine();
         strana_a_promena = Integer.parseInt(strana_a);
         strana_b_promena = Integer.parseInt(strana_b);
-        strana_c_promena = Integer.parseInt(strana_b);
+        strana_c_promena = Integer.parseInt(strana_c);
         vysledek = strana_a_promena + strana_b_promena + strana_c_promena ;
         System.out.println("Obvod trojúhelníku je " + vysledek + "\n");
         
